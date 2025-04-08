@@ -1,0 +1,141 @@
+/* TARJETAS ANIMADAS */
+.container {
+    display: flex;
+    justify-content: end; /* Centrado para una mejor disposición */
+    align-items: flex-start;
+    margin-right: 10px;
+    position: relative;
+    height: auto;
+    flex-wrap: wrap; /* Para permitir que las tarjetas se acomoden en nuevas filas en pantallas pequeñas */
+}
+
+.card {
+    position: relative;
+    height: 450px;
+    width: 250px;
+    margin: 10px;
+    overflow: hidden;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #1b1b1b;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    margin-top: 100px;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+.intro {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgba(27, 27, 27, 0.8);
+    color: white;
+    transition: all 0.5s ease;
+    overflow: hidden;
+}
+
+.intro h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.intro p {
+    font-size: 16px;
+    margin-top: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.card:hover img {
+    transform: scale(1.1) rotate(-3deg);
+}
+
+.card:hover .intro {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.card:hover .intro p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card.active .intro {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.card.active .intro p {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .container {
+        justify-content: center;
+        margin-right: 0;
+        margin-top: 50px;
+        gap: 20px; /* Espaciado entre tarjetas */
+        flex-wrap: wrap; /* Permite que las tarjetas pasen a la siguiente fila si no caben */
+    }
+
+    .card {
+        width: 40%; /* Reduzco el tamaño para que tres tarjetas se ajusten al lado */
+        height: 280px;
+        margin: 10px 0;
+        margin-top: 30px;
+    }
+
+    .card img {
+        border-radius: 10px;
+    }
+
+    .intro {
+        padding: 15px;
+    }
+
+    .intro h1 {
+        font-size: 20px;
+    }
+
+    .intro p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .card {
+        width: 170px; /* Tres tarjetas al lado en pantallas muy pequeñas */
+        margin-bottom: 2px;
+        margin-left: 5px;
+    }
+
+    .intro {
+        opacity: 0.9;
+    }
+
+    .intro h1 {
+        font-size: 16px;
+        color: white;
+        opacity: 1;
+    }
+
+    .intro p {
+        font-size: 12px;
+    }
+}
