@@ -1002,6 +1002,16 @@
           "size": "",
           "color": "a eleccion",
           "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749487201/Imagen_de_WhatsApp_2025-06-09_a_las_10.26.04_fda7406c_n0eba2.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de Reposteria",
+          "description": "Set de reposteria, 47 piezas por caja",
+          "price": 38000,
+          "material": "plastico",
+          "size": "",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749487201/Imagen_de_WhatsApp_2025-06-09_a_las_10.26.04_fda7406c_n0eba2.jpg"
         }
       ]
     },
