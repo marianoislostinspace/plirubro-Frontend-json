@@ -1,0 +1,104 @@
+#sidebarMenu {
+    background-color: rgb(255, 255, 255);
+}
+
+.carritoHeader {
+    background-color: rgb(218, 218, 218);
+    font-size: 2rem;
+}
+
+.H1cart {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.contenidoCarrito {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.eliminar {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.Total {
+    font-size: 3rem;
+}
+
+.TotalPrice {
+    color: rgb(62, 243, 55);
+    font-size: 3rem;
+}
+
+.itemsCarrito {
+    font-size: 10px;
+}
+
+.pedidoContainer {
+    display: flex;
+    flex-direction: column; /* Para que en móvil se apilen */
+    width: 20vw;
+}
+
+.pedidoContainer input {
+    margin-bottom: 15px;
+    height: 2vw;
+    width: 18vw;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.pedidoButton {
+    background-color: rgb(184, 255, 162);
+    justify-content: center;
+    width: 18vw;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.pedidoButton:hover {
+    transform: scale(1.07);
+}
+
+/* --- Responsive para pantallas chicas --- */
+@media screen and (max-width: 768px) {
+    .carritoHeader,
+    .H1cart,
+    .Total,
+    .TotalPrice {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .contenidoCarrito {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .eliminar {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .itemsCarrito {
+        font-size: 12px;
+    }
+
+    .pedidoContainer {
+        width: 90vw;
+        align-items: center;
+    }
+
+    .pedidoContainer input {
+        height: 40px;
+        width: 85vw;
+        font-size: 1rem;
+    }
+
+    .pedidoButton {
+        width: 85vw;
+        font-size: 1rem;
+    }
+}

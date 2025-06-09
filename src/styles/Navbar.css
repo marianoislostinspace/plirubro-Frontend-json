@@ -1,5 +1,67 @@
-.barra{
-    
-    z-index: 1;
+/* Fondo y sombra */
+.barra {
+    background-color: #ffffff; /* Blanco o el color de tu marca */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
+/* Marca o nombre del sitio */
+.navbar-brand {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.4rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #007bff;
+}
+
+/* Enlaces del navbar */
+.nav-link {
+    color: #333;
+    font-weight: 500;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Enlace activo */
+.nav-link.active {
+    color: #007bff;
+}
+
+/* Hamburguesa */
+.navbar-toggler {
+    border: none;
+    background: none;
+    padding: 0.5rem;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Estilo del icono hamburguesa (si querés personalizarlo) */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba%280,0,0,0.7%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Responsive (opcional, pero útil para móviles) */
+@media (max-width: 768px) {
+    .nav-link {
+        margin: 0.5rem 0;
+    }
+    .navbar-collapse {
+        background-color: #f9f9f9;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+}

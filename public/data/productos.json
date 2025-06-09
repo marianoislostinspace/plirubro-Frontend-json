@@ -1,0 +1,2045 @@
+{
+  "category": [
+    {
+      "name": "Bazar",
+      "items": [
+        {
+          "id": 1,
+          "name": "Set de Té",
+          "description": "Set de te, incluye tetera, 3 tazas y 3 platos",
+          "price": 35000,
+          "material": "Cerámica",
+          "size": null,
+          "color": "dorado",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296683/tetera_cxla4i.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Tendedero",
+          "description": "tender de ropa",
+          "price": 35000,
+          "material": "metal",
+          "size": null,
+          "color": "morado",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296682/tender_abagjw.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de vajilla",
+          "description": "set de vajilla de tazas y platos x30",
+          "price": 80000,
+          "material": "Cerámica",
+          "size": null,
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296682/tazaFlor5_i7mq54.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de vajilla",
+          "description": "set de vajilla de tazas y platos x30",
+          "price": 80000,
+          "material": "Cerámica",
+          "size": null,
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296682/tazaFlor3_ywn6ph.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de vajilla",
+          "description": "set de vajilla de tazas y platos x30",
+          "price": 80000,
+          "material": "Cerámica",
+          "size": null,
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296682/tazaFlor4_e3gliw.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de vajilla",
+          "description": "set de vajilla de tazas y platos x30",
+          "price": 80000,
+          "material": "Cerámica",
+          "size": null,
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296682/tazaFlor2_hgd1gc.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de vajilla",
+          "description": "set de vajilla de tazas y platos x30",
+          "price": 80000,
+          "material": "Cerámica",
+          "size": null,
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296682/tazaFlor_f72jsu.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de vajilla x30u",
+          "description": "set de vajilla de tazas y platos x 30.u",
+          "price": 120000,
+          "material": "Cerámica",
+          "size": null,
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296682/setTePlatos_dqasqf.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de cubiertos romania",
+          "description": "set de cubiertos de metal x 20.u",
+          "price": 30000,
+          "material": "metal",
+          "size": null,
+          "color": "metal",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296682/setCubiertos3_bqhrep.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de cubiertos romania",
+          "description": "set de cubiertos de metal con mango plastico x 20.u",
+          "price": 30000,
+          "material": "metal",
+          "size": null,
+          "color": "metal",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296681/setCubiertos2_dkbaz2.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de cubiertos",
+          "description": "set de cubiertos de metal con mango plastico x 20.u",
+          "price": 35000,
+          "material": "metal",
+          "size": null,
+          "color": "metal",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296681/setCubiertos_jqvf9p.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Secador de cocina",
+          "description": "Estante secador de metal para platos y utensillos",
+          "price": 32000,
+          "material": "metal",
+          "size": null,
+          "color": "metal",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296681/secadorPlatos_wb9hen.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Organizador de cocina",
+          "description": "Estante organizador y secador de metal para platos y utensillos, cuenta con estantes",
+          "price": 115000,
+          "material": "metal",
+          "size": null,
+          "color": "metal",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296680/organizadorCocina_sg2kr6.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Pava silbadora",
+          "description": "Pava silbadora de metal",
+          "price": 30000,
+          "material": "metal",
+          "size": "capacidad 1.5L",
+          "color": "gris",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296680/pava3_rwlaz4.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Pava silbadora brikenia",
+          "description": "Pava silbadora de metal",
+          "price": 30000,
+          "material": "metal",
+          "size": " capacidad 4.3L",
+          "color": "gris",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296680/pavaComun_ae0qsc.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Perchero multiuso",
+          "description": "Perchero multiuso para colgar ropa, incluye estantes para calzado",
+          "price": 65000,
+          "material": "metal",
+          "size": null,
+          "color": "gris",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296680/perchero_ymvflq.jpg"
+        },
+        {
+          "id": 1,
+          "name": "set de utensillos de cocina",
+          "description": "set de utensillos de cocina cuenta con espumadoras,espatulas,cucharas. etc",
+          "price": 65000,
+          "material": "plastico",
+          "size": null,
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296679/kitehcenware_ebe0hk.jpg"
+        },
+        {
+          "id": 1,
+          "name": "set de utensillos de cocina",
+          "description": "set de utensillos de cocina cuenta con espumadoras,espatulas,cucharas. etc, diferentes colores disponibles",
+          "price": 25000,
+          "material": "silicona",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314493/Imagen_de_WhatsApp_2025-05-26_a_las_21.01.50_a1ce98c7_vvndzs.jpg"
+        },
+        {
+          "id": 1,
+          "name": "set de utensillos de cocina",
+          "description": "set de utensillos de cocina cuenta con espumadoras,espatulas,cucharas. etc, diferentes colores disponibles",
+          "price": 25000,
+          "material": "silicona",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314492/Imagen_de_WhatsApp_2025-05-26_a_las_21.01.17_d456a196_ffs9t1.jpg"
+        },
+        {
+          "id": 1,
+          "name": "set de cubiertos de cocina",
+          "description": "set de cubiertos de cocina cuenta con tenedores,cuchillo y cucharas. Diferentes colores disponibles",
+          "price": 20000,
+          "material": "plastico",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315268/IMG-20250526-WA0079_nczopm.jpg"
+        },
+        {
+          "id": 1,
+          "name": "juego de tazas",
+          "description": "set de tazas ralladas con platos",
+          "price": 29000,
+          "material": "ceramica",
+          "size": null,
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296679/juegotazas2_sf75xd.jpg"
+        },
+        {
+          "id": 1,
+          "name": "juego de tazones",
+          "description": "set de tazones rallados x12",
+          "price": 25000,
+          "material": "ceramica",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315295/IMG-20250526-WA0104_dibdxy.jpg"
+        },
+        {
+          "id": 1,
+          "name": "juego de tazas",
+          "description": "set de tazas ralladas con platos",
+          "price": 35000,
+          "material": "ceramica",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314514/IMG-20250526-WA0012_aqmkck.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Organizador para lavadero",
+          "description": "estante organizador para lavadero con estantes",
+          "price": 46000,
+          "material": "metal",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/c_crop,h_1200/v1748296679/estanteLavadero_peyis3.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Botellas deportivas",
+          "description": "Botellas termicas deportivas con pico extraible, varios colores disponibles",
+          "price": 15000,
+          "material": "metal",
+          "size": "750ml",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315290/IMG-20250526-WA0099_ymvust.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Toallones de baño",
+          "description": "Toallones de baño, diferentes colores y modelos, $7000 x unidad",
+          "price": 6000,
+          "material": "poliester",
+          "size": "",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315287/IMG-20250526-WA0097_xuifnk.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Repasadores de cocina",
+          "description": "Repasadores de cocina en diferentes colores y modelos, $1000 x unidad",
+          "price": 1000,
+          "material": "Algodón",
+          "size": "",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314758/Imagen_de_WhatsApp_2025-05-26_a_las_18.55.14_caba391a_wjxnr9.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Juego de tazas x 6",
+          "description": "Juego de tazas de ceramica, diferentes colores y diseños disponibles",
+          "price": 24000,
+          "material": "ceramica",
+          "size": "",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315281/IMG-20250526-WA0093_qw59bl.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Organizador de baño",
+          "description": "Set de organizador de baño, incluye diferentes recipientes. Disponible en varios colores",
+          "price": 50000,
+          "material": "plastico",
+          "size": "",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315274/IMG-20250526-WA0083_nlmlkv.jpg"
+        },
+        {
+          "id": 1,
+          "name": "juego de tazas x 6",
+          "description": "Juego de tazas con plato, diferentes diseños disponibles",
+          "price": 24000,
+          "material": "ceramica",
+          "size": "",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315271/IMG-20250526-WA0081_s8riwr.jpg"
+        },
+        {
+          "id": 1,
+          "name": "juego de tazas x 6",
+          "description": "Juego de tazas con plato, diferentes diseños disponibles",
+          "price": 24000,
+          "material": "ceramica",
+          "size": "",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315269/IMG-20250526-WA0080_vgukcc.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Termo con mate stanley",
+          "description": "Termo con mate stanley de metal, difernetes colores disponibles",
+          "price": 38000,
+          "material": "metal",
+          "size": "",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315267/IMG-20250526-WA0078_bozwpj.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Termo stanley con taza",
+          "description": "Termo stanley con tapa de taza, difernetes colores disponibles",
+          "price": 25000,
+          "material": "metal",
+          "size": "",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315259/IMG-20250526-WA0073_glczqf.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Termo stanley matermo",
+          "description": "Termo stanley pequeño, difernetes colores disponibles",
+          "price": 30000,
+          "material": "metal",
+          "size": "1.5L",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315255/IMG-20250526-WA0068_y9tg0m.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Termo stanley ",
+          "description": "Termo stanley tipo matero, difernetes colores disponibles",
+          "price": 30000,
+          "material": "metal",
+          "size": "",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314752/Imagen_de_WhatsApp_2025-05-26_a_las_18.28.11_84160971_lagefw.jpg"
+        },
+        {
+          "id": 1,
+          "name": "mates stanley",
+          "description": "mates stanley, difernetes colores disponibles",
+          "price": 20000,
+          "material": "metal",
+          "size": "",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315250/Imagen_de_WhatsApp_2025-05-26_a_las_20.52.55_8fb0d798_qjboxo.jpg"
+        },
+        {
+          "id": 1,
+          "name": "mates stanley redondos",
+          "description": "mates stanley redondos, difernetes colores disponibles",
+          "price": 20000,
+          "material": "metal",
+          "size": "",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314756/Imagen_de_WhatsApp_2025-05-26_a_las_18.52.21_46851776_pbrpxo.jpg"
+        },
+        {
+          "id": 1,
+          "name": "termos stanley",
+          "description": "Termos stanley con tapa matera, difernetes colores disponibles",
+          "price": 35000,
+          "material": "metal",
+          "size": "",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314758/Imagen_de_WhatsApp_2025-05-26_a_las_18.53.40_5f30d37a_rojvrm.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Juego de ollas  Rosmania",
+          "description": "Set de ollas, sarten y pava rosmania",
+          "price": 40000,
+          "material": "teflon",
+          "size": "",
+          "color": "rosa",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315254/Imagen_de_WhatsApp_2025-05-26_a_las_21.01.09_e352c462_jhh5fb.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Juego de ollas  Rosmania",
+          "description": "Set de ollas, sarten y pava rosmania, a eleccion de color",
+          "price": 150000,
+          "material": "teflon",
+          "size": "",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315253/Imagen_de_WhatsApp_2025-05-26_a_las_21.01.07_99989a73_ihgea9.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de vasos de vidrio",
+          "description": "Set de vasos de vidrio x6 unidades",
+          "price": 25000,
+          "material": "vidrio",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315249/Imagen_de_WhatsApp_2025-05-26_a_las_20.52.54_cabd90a4_chsfya.jpg"
+        },
+        {
+          "id": 1,
+          "name": "bolso matero stanley",
+          "description": "bolso para termo y mate stanley, diferentes colores disponibles",
+          "price": 30000,
+          "material": "poliester",
+          "size": "",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314513/IMG-20250526-WA0010_atzu4l.jpg"
+        },
+        {
+          "id": 1,
+          "name": "organizador de calzado",
+          "description": "Organizador de clazado con estante para zapatillas y ganchos para colgar prendas",
+          "price": 55000,
+          "material": "metal",
+          "size": "",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314496/Imagen_de_WhatsApp_2025-05-26_a_las_21.01.55_21bfcae8_k1oquw.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Vasos con calentador",
+          "description": "vasos  con calentador icorporado, diferentes colores disponibles",
+          "price": 26000,
+          "material": "plastico",
+          "size": "",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314495/Imagen_de_WhatsApp_2025-05-26_a_las_21.01.52_ad2a19b5_mt2xkf.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Organizador de ropa",
+          "description": "Organizador de ropa de 3 espacios",
+          "price": 38000,
+          "material": "",
+          "size": "",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314355/Imagen_de_WhatsApp_2025-05-26_a_las_21.00.34_d9fa3f98_vpkhb8.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de vajilla x30",
+          "description": "set de vajilla de platos y tazas",
+          "price": 130000,
+          "material": "",
+          "size": "",
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314312/Imagen_de_WhatsApp_2025-05-26_a_las_21.00.31_a1477b99_lbxjv2.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de vajilla x30",
+          "description": "set de vajilla de platos y tazas",
+          "price": 130000,
+          "material": "",
+          "size": "",
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314312/Imagen_de_WhatsApp_2025-05-26_a_las_21.00.31_a5e89dca_cp7fjo.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de ollas",
+          "description": "set de ollas Hudson, sarten, cacerola y olla pequeña",
+          "price": 140000,
+          "material": "",
+          "size": "",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571917/D_NQ_NP_773048-MLA72280667054_102023-O_vulmep.webp"
+        },
+        {
+          "id": 1,
+          "name": "Juego de ollas",
+          "description": "juego de ollas x5",
+          "price": 140000,
+          "material": "teflon",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314507/Imagen_de_WhatsApp_2025-05-26_a_las_21.57.29_034ca943_ycbd7x.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Juego de ollas",
+          "description": "juego de ollas x5",
+          "price": 140000,
+          "material": "teflon",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314506/Imagen_de_WhatsApp_2025-05-26_a_las_21.57.28_61a058c3_sjh8ir.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Juego de ollas de acero inoxidable",
+          "description": "juego de ollas x5",
+          "price": 180000,
+          "material": "acero",
+          "size": null,
+          "color": "gris",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314490/Imagen_de_WhatsApp_2025-05-26_a_las_21.01.10_c6e44e33_xpbgzp.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Alfombras de baño",
+          "description": "Alfombras de baño, diferentes colores disponibles",
+          "price": 12000,
+          "material": "",
+          "size": null,
+          "color": "rojo",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571356/IMG-20250529-WA0073_n0imul.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Forro para cortina de baño",
+          "description": "Forro protector para cortinas de baño",
+          "price": 5000,
+          "material": "100% algodon",
+          "size": "207 x 232 cm",
+          "color": "rojo",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571088/IMG-20250529-WA0064_qshyzl.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Cortina plastica de baño",
+          "description": "cortina de baño plastica",
+          "price": 11000,
+          "material": "plastico",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571052/IMG-20250529-WA0063_humcuv.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Porta servilletas",
+          "description": "Base de metal para rollo de cocina",
+          "price": 4000,
+          "material": "metal",
+          "size": "",
+          "color": "gris",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571029/IMG-20250529-WA0061_gep6yd.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Molde para pastas",
+          "description": "Molde para hacer pastas caseras",
+          "price": 5000,
+          "material": "plastico",
+          "size": "",
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571028/IMG-20250529-WA0058_fhysnm.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Pisa papas",
+          "description": "Pisa papas, machacador",
+          "price": 5000,
+          "material": "plastico",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571029/IMG-20250529-WA0060_ify9yz.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Vasos de vidrio x6",
+          "description": "Vasos de vidrio X6",
+          "price": 22000,
+          "material": "vidrio",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/t_juju/v1748571028/IMG-20250529-WA0059_g4t6ny.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Vasos de vidrio",
+          "description": "Vasos de vidrio X6",
+          "price": 15000,
+          "material": "vidrio",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571019/IMG-20250529-WA0047_e11csw.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Vasos de vidrio",
+          "description": "Vasos de vidrio X6",
+          "price": 22000,
+          "material": "vidrio",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571019/IMG-20250529-WA0048_azitmb.jpg"
+        },
+        {
+          "id": 1,
+          "name": "batidor de mano",
+          "description": "Globo batidor de mano",
+          "price": 4500,
+          "material": "silicona",
+          "size": "",
+          "color": "rosa",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571028/IMG-20250529-WA0056_b3jn8t.jpg"
+        },
+        {
+          "id": 1,
+          "name": "batidor de mano",
+          "description": "Globo batidor de mano",
+          "price": 5000,
+          "material": "metal",
+          "size": "",
+          "color": "gris",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570950/IMG-20250529-WA0031_akh4xp.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Pinceles de cocina",
+          "description": "Pinceles de cocina x2",
+          "price": 4500,
+          "material": "silicona",
+          "size": "",
+          "color": "rosa",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571028/IMG-20250529-WA0056_b3jn8t.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Cafetera moka",
+          "description": "Cafeterea moka express italiana",
+          "price": 40000,
+          "material": "metal",
+          "size": "9 tazas",
+          "color": "gris",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/t_juju/v1748571023/IMG-20250529-WA0052_ompyq3.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Pava silbadora uman",
+          "description": "Pava silbadora acero inoxidable",
+          "price": 27000,
+          "material": "metal",
+          "size": "1.5l",
+          "color": "gris",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571023/IMG-20250529-WA0051_xntgjx.jpg"
+        },
+        {
+          "id": 1,
+          "name": "coladores de mano",
+          "description": "Coladores de mano de metal x 3",
+          "price": 6000,
+          "material": "metal",
+          "size": "",
+          "color": "gris",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571023/IMG-20250529-WA0050_khfp6x.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Cortina de baño",
+          "description": "Cortinade baño con anillos de plastico",
+          "price": 35000,
+          "material": "plastico",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571018/IMG-20250529-WA0045_oyyzgx.jpg"
+        },
+        {
+          "id": 1,
+          "name": "salero y pimentero",
+          "description": "Salero y pimentero de vidrio",
+          "price": 3500,
+          "material": "vidrio",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571018/IMG-20250529-WA0046_dr7qpx.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Huevera de plastico",
+          "description": "base plastica para almacenar huevos",
+          "price": 4000,
+          "material": "plastico",
+          "size": "",
+          "color": "verde",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571018/IMG-20250529-WA0044_ivcpxg.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Cubetera para hielo",
+          "description": "cubetera para hacer cubos hielo",
+          "price": 3000,
+          "material": "plastico",
+          "size": "",
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571018/IMG-20250529-WA0043_v4lukz.jpg"
+        },
+        {
+          "id": 1,
+          "name": "pimentero",
+          "description": "molino triturador de pimienta",
+          "price": 27000,
+          "material": "madera",
+          "size": "",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571017/IMG-20250529-WA0042_ocnjgy.jpg"
+        },
+        {
+          "id": 1,
+          "name": "escurridor/secador",
+          "description": "escurridor de utensillos de cocina",
+          "price": 5000,
+          "material": "plastico",
+          "size": "",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570996/IMG-20250529-WA0041_dxxbtg.jpg"
+        },
+        {
+          "id": 1,
+          "name": "bowls plasticos",
+          "description": "bowls plasticos x4",
+          "price": 6000,
+          "material": "plastico",
+          "size": "",
+          "color": "rojo",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570960/IMG-20250529-WA0040_ghqqfe.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de bowls",
+          "description": "Set de bowls x5 de vidrio con tapa, aptos para microondas o heladera",
+          "price": 20000,
+          "material": "vidrio",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570954/IMG-20250529-WA0039_lywg75.jpg"
+        },
+        {
+          "id": 1,
+          "name": "rallador de mano",
+          "description": "rallador de mano hecho de acero inoxidable",
+          "price": 5000,
+          "material": "metal",
+          "size": "",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570953/IMG-20250529-WA0036_yfsk8v.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Sacacorchos",
+          "description": "Sacacorchos destapador",
+          "price": 5000,
+          "material": "metal",
+          "size": "",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570954/IMG-20250529-WA0038_s0i3l2.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Mantequera",
+          "description": "Mantequera con medidor de porciones",
+          "price": 3500,
+          "material": "plastico",
+          "size": "",
+          "color": "azul",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570952/IMG-20250529-WA0034_xozjks.jpg"
+        },
+        {
+          "id": 1,
+          "name": "utensillos de madera",
+          "description": "Utensillos de madera",
+          "price": 3000,
+          "material": "madera",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570953/IMG-20250529-WA0035_snsmkv.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Servilletero",
+          "description": "Servilletero de metal",
+          "price": 3000,
+          "material": "metal",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570952/IMG-20250529-WA0033_prduys.jpg"
+        },
+        {
+          "id": 1,
+          "name": "sarten de metal",
+          "description": "Sarten de fondo marcado",
+          "price": 35000,
+          "material": "metal",
+          "size": "",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570906/Imagen_de_WhatsApp_2025-05-29_a_las_16.42.36_9fd94450_xtuke2.jpg"
+        },
+        {
+          "id": 1,
+          "name": "sarten de metal",
+          "description": "Sarten de antiadherente de 24cm",
+          "price": 35000,
+          "material": "metal",
+          "size": "",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570906/Imagen_de_WhatsApp_2025-05-29_a_las_16.42.16_30c86bb0_oaya5y.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Platos de vidrio",
+          "description": "Platos de vidrio durax X4",
+          "price": 7000,
+          "material": "vidrio",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570905/Imagen_de_WhatsApp_2025-05-29_a_las_16.41.58_88744bd1_m5jhth.jpg"
+        },
+        {
+          "id": 1,
+          "name": "vasitos whiskey",
+          "description": "vasos pequeños tipo chupitos para whiskey x6",
+          "price": 9000,
+          "material": "vidrio",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570903/Imagen_de_WhatsApp_2025-05-29_a_las_16.35.49_e324d8d9_i2pd8i.jpg"
+        },
+        {
+          "id": 1,
+          "name": "set de jarra mas yerbera y azucarera",
+          "description": "Set completo, incluye jarra stanley mas yerbera y azucarera",
+          "price": 45000,
+          "material": "metal",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749080110/Imagen_de_WhatsApp_2025-06-03_a_las_12.26.09_8a508ecf_sdkt1o.jpg"
+        },
+        {
+          "id": 1,
+          "name": "set de tazas con plato x6",
+          "description": "Juego de tazas con plato por 6 unidades",
+          "price": 32000,
+          "material": "ceramica",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749080110/Imagen_de_WhatsApp_2025-06-03_a_las_12.24.22_fd7a68df_e24gop.jpg"
+        },
+        {
+          "id": 1,
+          "name": "set de tazas con plato x6",
+          "description": "Juego de tazas con plato por 6 unidades",
+          "price": 32000,
+          "material": "ceramica",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749080111/Imagen_de_WhatsApp_2025-06-03_a_las_12.24.23_149c7a18_pppl4r.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Platos Hondos",
+          "description": "platos hondos por docena, diferentes colores y diseños disponibles",
+          "price": 48000,
+          "material": "ceramica",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749082595/Imagen_de_WhatsApp_2025-05-30_a_las_15.11.17_114fe5a6_ytgork.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Platos Hondos",
+          "description": "platos hondos por docena, diferentes colores y diseños disponibles",
+          "price": 48000,
+          "material": "ceramica",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749082595/Imagen_de_WhatsApp_2025-05-30_a_las_15.11.18_081601fd_igiktv.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Platos Hondos",
+          "description": "platos hondos por docena, diferentes colores y diseños disponibles",
+          "price": 48000,
+          "material": "ceramica",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749082634/Imagen_de_WhatsApp_2025-05-30_a_las_15.11.18_555554cc_nmdeht.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Juego de tazas de té",
+          "description": "Juego de te o cafe, incluye 6 tazas",
+          "price": 35000,
+          "material": "ceramica",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749082718/Imagen_de_WhatsApp_2025-05-30_a_las_15.12.37_4172bf61_nsj5ad.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Juego de tazas de té",
+          "description": "Juego de te o cafe, incluye 6 tazas mas plato",
+          "price": 27000,
+          "material": "ceramica",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749487201/Imagen_de_WhatsApp_2025-06-09_a_las_10.26.30_1c1aae31_osefyq.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Juego de tazas de té",
+          "description": "Juego de te o cafe, incluye 6 tazas mas plato",
+          "price": 27000,
+          "material": "ceramica",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749487202/Imagen_de_WhatsApp_2025-06-09_a_las_10.28.42_f74ba543_trtpoh.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Juego de tazas de té",
+          "description": "Juego de te o cafe, incluye 6 tazas mas plato",
+          "price": 27000,
+          "material": "ceramica",
+          "size": "",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749487202/Imagen_de_WhatsApp_2025-06-09_a_las_10.28.43_60681c8a_orweay.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de ollas rosmania",
+          "description": "Juego 5 ollas marca rosmania de diferentes tamaños, 20cm, 24cm, 28cm, 28cm y 32cm de diametro",
+          "price": 200000,
+          "material": "metal",
+          "size": "",
+          "color": "rosa",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749487203/IMG-20250607-WA0009_cwxgdm.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de ollas rosmania",
+          "description": "Juego 5 ollas marca rosmania de diferentes tamaños, 20cm, 24cm, 28cm, 28cm y 32cm de diametro",
+          "price": 200000,
+          "material": "metal",
+          "size": "",
+          "color": "rojo",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749487202/IMG-20250607-WA0013_siqrpo.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de ollas rosmania",
+          "description": "Juego 5 ollas marca rosmania de diferentes tamaños, 20cm, 24cm, 28cm, 28cm y 32cm de diametro",
+          "price": 200000,
+          "material": "metal",
+          "size": "",
+          "color": "amarillo",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749487201/IMG-20250607-WA0010_sh6ac1.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de ollas rosmania cuadradas",
+          "description": "Juego 5 ollas marca rosmania de diferentes tamaños, 20cm, 24cm, 28cm, 28cm y 32cm de diametro",
+          "price": 220000,
+          "material": "metal",
+          "size": "",
+          "color": "azul",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749487202/IMG-20250607-WA0014_jpjbh5.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de ollas rosmania cuadradas",
+          "description": "Juego 5 ollas marca rosmania de diferentes tamaños, 20cm, 24cm, 28cm, 28cm y 32cm de diametro",
+          "price": 220000,
+          "material": "metal",
+          "size": "",
+          "color": "amarillo",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749487202/IMG-20250607-WA0015_gjytx6.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Set de ollas rosmania cuadradas",
+          "description": "Juego 5 ollas marca rosmania de diferentes tamaños, 20cm, 24cm, 28cm, 28cm y 32cm de diametro",
+          "price": 220000,
+          "material": "metal",
+          "size": "",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749487201/IMG-20250607-WA0012_kfxntg.jpg"
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "name": "Blanqueria",
+      "items": [
+        {
+          "id": 2,
+          "name": "Acolchado para cama",
+          "description": "Acolchado grueso para cama de dos plazas",
+          "price": 80000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "rojo",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315294/IMG-20250526-WA0102_kw7pwp.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Acolchado para cama",
+          "description": "Acolchado grueso para cama de dos plazas",
+          "price": 80000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314311/Imagen_de_WhatsApp_2025-05-26_a_las_20.52.44_ba2ffa2e_ihfk11.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Acolchado para cama",
+          "description": "Acolchado grueso para cama de dos plazas",
+          "price": 80000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "gris",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315294/IMG-20250526-WA0101_nbamc8.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Acolchado para cama",
+          "description": "Acolchado grueso para cama de dos plazas",
+          "price": 80000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "morado",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314511/IMG-20250526-WA0007_c9zuhv.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Acolchado para cama",
+          "description": "Acolchado grueso para cama de dos plazas",
+          "price": 80000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "rosa",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314503/Imagen_de_WhatsApp_2025-05-26_a_las_21.03.23_3baa7233_sznfzl.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Acolchado para cama",
+          "description": "Acolchado grueso para cama de dos plazas, diferentes colores disponibles",
+          "price": 80000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315286/IMG-20250526-WA0096_lsnn36.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Acolchado para cama",
+          "description": "Acolchado grueso para cama de dos plazas, diferentes colores disponibles",
+          "price": 80000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315294/IMG-20250526-WA0101_nbamc8.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Acolchado para cama queen",
+          "description": "Acolchado grueso para cama tamaño queen",
+          "price": 65000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749487203/IMG-20250609-WA0007_qlfy16.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Acolchado para cama queen",
+          "description": "Acolchado grueso para cama tamaño queen",
+          "price": 65000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "verde",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749487202/IMG-20250609-WA0005_lp4agl.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Acolchado para cama queen",
+          "description": "Acolchado grueso para cama tamaño queen",
+          "price": 65000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "marron",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749487203/IMG-20250609-WA0008_mqmrke.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Acolchado para cama queen",
+          "description": "Acolchado grueso para cama tamaño queen",
+          "price": 65000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "rosa",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749487202/IMG-20250609-WA0006_e2v3em.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Juego de sabanas y acolchado mas cortina",
+          "description": "set de sabanas y acolchado mas cortina",
+          "price": 100000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "Marron",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749080111/Imagen_de_WhatsApp_2025-06-03_a_las_12.42.52_bc34b676_uzcblr.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Juego de sabanas y acolchado mas cortina",
+          "description": "set de sabanas y acolchado mas cortina",
+          "price": 100000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "Rosa",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749080110/Imagen_de_WhatsApp_2025-06-03_a_las_12.42.51_22b227a2_oguwjv.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Juego de sabanas y acolchado mas cortina",
+          "description": "set de sabanas y acolchado mas cortina",
+          "price": 100000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "celeste",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749080110/Imagen_de_WhatsApp_2025-06-03_a_las_12.42.52_8e4b343e_jqpyy1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Acolchado para niños de minnie",
+          "description": "Acolchado para cama de una plaza, diseño infantil de minnie mouse",
+          "price": 78000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314510/IMG-20250526-WA0006_od3xnc.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Acolchado para niños de cars",
+          "description": "Acolchado para cama de una plaza, diseño infantil de cars",
+          "price": 78000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314507/IMG-20250526-WA0002_egxha4.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Acolchado para niños de los vengadores",
+          "description": "Acolchado para cama de una plaza, diseño infantil de los vengadores",
+          "price": 78000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314507/IMG-20250526-WA0001_mbwg7l.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Acolchado para niños de spiderman",
+          "description": "Acolchado para cama de una plaza, diseño infantil de spiderman",
+          "price": 78000,
+          "discountPrice": null,
+          "material": "Algodón",
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314502/Imagen_de_WhatsApp_2025-05-26_a_las_21.03.12_f1ac9dcc_pdqqoj.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Cortinas casatex",
+          "description": "Cortinas blackout marca casatex, varios colores disponibles",
+          "price": 70000,
+          "material": "poliester",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296679/cortinaBlackTurquesa_q67bju.webp"
+        },
+        {
+          "id": 1,
+          "name": "mantas de cama comun",
+          "description": "mantas para camas de 2 plazas, disponible en diferentes colores",
+          "price": 20000,
+          "material": "poliester",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315274/IMG-20250526-WA0086_fqeqz0.jpg"
+        },
+        {
+          "id": 1,
+          "name": "mantas de cama con cordero",
+          "description": "mantas para camas de 2 plazas, disponible en diferentes colores",
+          "price": 38000,
+          "material": "poliester",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315264/IMG-20250526-WA0077_uryzu3.jpg"
+        },
+        {
+          "id": 1,
+          "name": "mantas de cama luminosa",
+          "description": "mantas para camas de 2 plazas, disponible en diferentes colores y diseños disponibles",
+          "price": 27000,
+          "material": "poliester",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315263/IMG-20250526-WA0075_yqprov.jpg"
+        },
+        {
+          "id": 1,
+          "name": "mantas de cama comunes",
+          "description": "mantas para camas de 2 plazas, disponible en diferentes colores y diseños disponibles",
+          "price": 20000,
+          "material": "poliester",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315263/IMG-20250526-WA0076_zta4hj.jpg"
+        },
+        {
+          "id": 1,
+          "name": "mantas de cama con cordero",
+          "description": "mantas para camas de 2 plazas, disponible en diferentes colores y diseños disponibles",
+          "price": 38000,
+          "material": "poliester",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315249/Imagen_de_WhatsApp_2025-05-26_a_las_20.37.20_a63ac7c5_zchfnu.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Toallones de baño XXL",
+          "description": "Toallas de baño disponibles en firentes colores",
+          "price": 12000,
+          "material": "poliester",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315277/IMG-20250526-WA0088_ppayqk.jpg"
+        },
+        {
+          "id": 1,
+          "name": "acolchados para cama grande",
+          "description": "acolchado para cama grande tamaño queen, diferentes colores disponibles",
+          "price": 35000,
+          "material": "poliester",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315258/IMG-20250526-WA0072_abjhzg.jpg"
+        },
+        {
+          "id": 1,
+          "name": "sabanas ajustables casatex",
+          "description": "set sabanas ajustables x4 marca casatex",
+          "price": 40000,
+          "material": "poliester",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314755/Imagen_de_WhatsApp_2025-05-26_a_las_18.47.56_afd685a0_rigge6.jpg"
+        },
+        {
+          "id": 1,
+          "name": "sabanas ajustables ",
+          "description": "set sabanas ajustables, diferentes colores disponibles",
+          "price": 32000,
+          "material": "100% algodon",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314494/Imagen_de_WhatsApp_2025-05-26_a_las_21.01.51_49fe99b7_f1947d.jpg"
+        },
+        {
+          "id": 1,
+          "name": "juego de cama 4 piezas",
+          "description": "juego de cama, incluye sabanas, cubre colchon y 2 fundas para almohadas. 1200 hilos",
+          "price": 30000,
+          "material": "",
+          "size": "207 x 232 cm",
+          "color": "rojo",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571356/IMG-20250529-WA0071_n1uitr.jpg"
+        },
+        {
+          "id": 1,
+          "name": "juego de toallones",
+          "description": "juego de toallones",
+          "price": 15000,
+          "material": "",
+          "size": "",
+          "color": "varios",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570903/Imagen_de_WhatsApp_2025-05-29_a_las_16.35.12_25c63192_gy52lh.jpg"
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "name": "Electrónica",
+      "items": [
+        {
+          "id": 4,
+          "name": "Secador de pelo",
+          "description": "Secador de pelo marca Sokany",
+          "price": 35000,
+          "discountPrice": 9990,
+          "material": "Plástico y componentes electrónicos",
+          "size": null,
+          "color": "azul",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314503/Imagen_de_WhatsApp_2025-05-26_a_las_21.03.22_29fb8f7f_cxf1az.jpg"
+        },
+        {
+          "id": 4,
+          "name": "minipimer batidora",
+          "description": "minipimer con accesorio batidor",
+          "price": 35000,
+          "discountPrice": 9990,
+          "material": "Plástico y componentes electrónicos",
+          "size": null,
+          "color": "gris",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314311/Imagen_de_WhatsApp_2025-05-26_a_las_20.52.54_fa11f2b4_erzsiy.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Planchita Sokany",
+          "description": "Planchita de pelo marca Sokany",
+          "price": 35000,
+          "discountPrice": 9990,
+          "material": "Plástico y componentes electrónicos",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296681/planchita_fohgpg.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Plancha luma bella",
+          "description": "Plancha para la ropa con rociador incluido",
+          "price": 30000,
+          "discountPrice": 9990,
+          "material": "Plástico y componentes electrónicos",
+          "size": null,
+          "color": "azul",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296681/plancha_rkdhei.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Plancha luma morley",
+          "description": "Plancha de vapor para la ropa con rociador incluido, 2600w",
+          "price": 35000,
+          "discountPrice": 9990,
+          "material": "Plástico y componentes electrónicos",
+          "size": null,
+          "color": "azul",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315288/IMG-20250526-WA0098_boaxob.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Secadorde pelo y planchita morley",
+          "description": "Secador de pelo y planchita marca morley",
+          "price": 45000,
+          "discountPrice": 9990,
+          "material": "Plástico y componentes electrónicos",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314510/IMG-20250526-WA0005_joco1a.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Pava electrica patrick",
+          "description": "Pava electrica patrick, capacidad 1.8L",
+          "price": 28000,
+          "material": "metal",
+          "size": "capacidad 1.8L",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296680/pavaNegra_bb9keh.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Pava electrica yumi",
+          "description": "Pava electrica de vidrio yumi, capacidad 2L",
+          "price": 32000,
+          "material": "metal",
+          "size": "capacidad 2L",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296680/pava2_mglgwa.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Pava electrica libanesa",
+          "description": "Pava electrica libanesa, capacidad 2L",
+          "price": 24000,
+          "material": "metal",
+          "size": "capacidad 2L",
+          "color": "gris",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296680/pava_z9yujd.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Sandwichera RAF",
+          "description": "Sandwichera  de metal con capacidad de dos sandwiches",
+          "price": 38000,
+          "material": "metal",
+          "size": "capacidad 2u",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296681/sandwichera_fao4sh.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Licuadora premier",
+          "description": "Licuadora premier, licuadora y trituradora, 3 en 1 blender",
+          "price": 45000,
+          "material": "plastico",
+          "size": "capacidad 2L",
+          "color": "rojo",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296679/licuadora_fnc874.webp"
+        },
+        {
+          "id": 1,
+          "name": "Licuadora ackiliss",
+          "description": "Licuadora ackiliss, licuadora y trituradora, 3 en 1 blender",
+          "price": 80000,
+          "material": "plastico",
+          "size": "capacidad 2L",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314505/Imagen_de_WhatsApp_2025-05-26_a_las_21.03.23_85a99a57_etgpkm.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Cafetera Electrica",
+          "description": "Cafetera electrica sokany, capacidad para 6 tazas",
+          "price": 50000,
+          "material": "metal",
+          "size": "capacidad 2L",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/c_crop,w_1000,h_440/v1748296679/cafetera_a5rngj.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Batidora de mano",
+          "description": "Batidora de mano marca yumi, ideal para reposteria",
+          "price": 25000,
+          "material": "plastico y componentes electornicos",
+          "size": "capacidad 2L",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315278/IMG-20250526-WA0091_mfte7s.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Batidora de mano premier",
+          "description": "Batidora de mano marca premier, ideal para reposteria",
+          "price": 25000,
+          "material": "plastico y componentes electornicos",
+          "size": "capacidad 2L",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749082719/Imagen_de_WhatsApp_2025-05-30_a_las_15.36.23_3b103b68_zgrqy2.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Pava electrica trillum",
+          "description": "Pava electrica trillum, con capacidad de 2.5L, disponible en varios colores",
+          "price": 27000,
+          "material": "plastico y componentes electornicos",
+          "size": "capacidad 2L",
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748315277/IMG-20250526-WA0090_dctfmt.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Removedor de pelusas",
+          "description": "Maquina para quitar pelusas de la ropa",
+          "price": 25000,
+          "material": "plastico y componentes electornicos",
+          "size": "",
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314500/Imagen_de_WhatsApp_2025-05-26_a_las_21.01.57_5750675e_utzv5n.jpg"
+        },
+        {
+          "id": 1,
+          "name": "secador portatil",
+          "description": "secador portatil para la ropa",
+          "price": 58000,
+          "material": "plastico y componentes electornicos",
+          "size": "",
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/t_juju/v1748314497/Imagen_de_WhatsApp_2025-05-26_a_las_21.01.55_8025fef9_ewiaq5.jpg"
+        },
+        {
+          "id": 1,
+          "name": "tostadora de pan",
+          "description": "tostadora de pan las santas",
+          "price": 35000,
+          "material": "plastico",
+          "size": null,
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314515/IMG-20250526-WA0014_lbcvzi.jpg"
+        },
+        {
+          "id": 1,
+          "name": "maquina para crepes",
+          "description": "maquina sarten invertida para hacer crepes",
+          "price": 55000,
+          "material": "plastico",
+          "size": null,
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314514/IMG-20250526-WA0011_o3ip2x.jpg"
+        },
+        {
+          "id": 1,
+          "name": "taza mezcladora",
+          "description": "Taza mezcladora con batidor incluido",
+          "price": 22000,
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314489/Imagen_de_WhatsApp_2025-05-26_a_las_21.00.35_a438600a_t6ro3u.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Microfono",
+          "description": "Microfono con cable con boton de encendido y apagado ",
+          "price": 18000,
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571453/IMG-20250529-WA0120_lnyj4k.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Microfono",
+          "description": "Microfono profesional dinamico ",
+          "price": 18000,
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571453/IMG-20250529-WA0117_vnox5j.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Consola portatil",
+          "description": "Consola portatil juegos de 8 Bits",
+          "price": 35000,
+          "material": "plastico",
+          "size": null,
+          "color": "azul",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571453/IMG-20250529-WA0118_vdyjr8.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Tira de luces led",
+          "description": "Tira de luces led RGB con adhesivo",
+          "price": 8000,
+          "material": "plastico",
+          "size": null,
+          "color": "azul",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571453/IMG-20250529-WA0119_slatdp.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Luz giratoria",
+          "description": "Parlante con luz giratoria de color",
+          "price": 20000,
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571453/IMG-20250529-WA0116_saavjq.jpg"
+        },
+        {
+          "id": 1,
+          "name": "foco luz led con parlante",
+          "description": "Parlante de foco led",
+          "price": 18000,
+          "material": "plastico",
+          "size": null,
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571412/IMG-20250529-WA0115_jfog1w.jpg"
+        },
+        {
+          "id": 1,
+          "name": "radio portatil",
+          "description": "radio portatil winco",
+          "price": 19000,
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571376/IMG-20250529-WA0114_n7fmmy.jpg"
+        },
+        {
+          "id": 1,
+          "name": "radio portatil philco",
+          "description": "radio portatil philco am/fm",
+          "price": 35000,
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571369/IMG-20250529-WA0113_tflqti.jpg"
+        },
+        {
+          "id": 1,
+          "name": "radio grande",
+          "description": "radio Grande suono am/sw/fm",
+          "price": 40000,
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571368/IMG-20250529-WA0112_kyqkof.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Cargores de bateria usb ",
+          "description": "cargador de baterias AA y AAA, cable usb",
+          "price": 13000,
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571368/IMG-20250529-WA0111_jgqu63.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Transformador usb",
+          "description": "transformador para cargador USB con carga rapida",
+          "price": 4000,
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571368/IMG-20250529-WA0110_vs8je1.jpg"
+        },
+        {
+          "id": 1,
+          "name": "cable usb tipo C ",
+          "description": "cable de carga y datos usb tipo C",
+          "price": 4000,
+          "material": "plastico",
+          "size": null,
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571368/IMG-20250529-WA0109_xmyrvz.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Soporte para telefono",
+          "description": "Soporte para el telefono para el auto",
+          "price": 8000,
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571368/IMG-20250529-WA0108_lxtzll.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Auriculares Bluetooth",
+          "description": "Auriculares inhalambricos bluetooth",
+          "price": 10000,
+          "material": "plastico",
+          "size": null,
+          "color": "verde",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571366/IMG-20250529-WA0107_fiht0f.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Auriculares Bluetooth",
+          "description": "Auriculares inhalambricos bluetooth",
+          "price": 10000,
+          "material": "plastico",
+          "size": null,
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571365/IMG-20250529-WA0106_vaoasn.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Auriculares Bluetooth earbuds",
+          "description": "Auriculares inhalambricos bluetooth",
+          "price": 20000,
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571365/IMG-20250529-WA0105_c3ajix.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Auriculares Bluetooth earbuds",
+          "description": "Auriculares inhalambricos bluetooth",
+          "price": 8000,
+          "material": "plastico",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571364/IMG-20250529-WA0104_yayhga.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Auriculares Bluetooth earbuds M10",
+          "description": "Auriculares inhalambricos bluetooth",
+          "price": 8000,
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571361/IMG-20250529-WA0103_ahfgpt.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Soporte para tablet",
+          "description": "Soporte para colocar en la cabeza del asiento del auto",
+          "price": 10000,
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571360/IMG-20250529-WA0092_hi97y1.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Camara de seguridad",
+          "description": "Camara de seguridad Wifi con movimiento",
+          "price": 32000,
+          "material": "plastico",
+          "size": null,
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571360/IMG-20250529-WA0094_zdknac.jpg"
+        },
+        {
+          "id": 1,
+          "name": "microfono parlante",
+          "description": "Microfono con altavoz y parlante para grabar sonidos y hacer mezclas",
+          "price": 18000,
+          "material": "plastico",
+          "size": null,
+          "color": "rosa",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571360/IMG-20250529-WA0093_hbbomn.jpg"
+        },
+        {
+          "id": 1,
+          "name": "parlantes bluetooth",
+          "description": "Palantes bluetooth inhalambricos",
+          "price": "20000",
+          "material": "plastico",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571356/IMG-20250529-WA0090_v9qbvi.jpg"
+        },
+        {
+          "id": 1,
+          "name": "timbre de puerta",
+          "description": "Timbre de puerta a bateria",
+          "price": 13000,
+          "material": "plastico",
+          "size": null,
+          "color": "blanca",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748571356/IMG-20250529-WA0089_avbikv.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Planchita para el pelo",
+          "description": "Planchita de pelo con calentado rapido",
+          "price": 25000,
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570951/Imagen_de_WhatsApp_2025-05-29_a_las_16.50.13_6ef53391_kejb9i.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Pilas 12V",
+          "description": "Pilas alcalinas 12V",
+          "price": 5000,
+          "material": "",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570950/Imagen_de_WhatsApp_2025-05-29_a_las_16.49.32_43b8c7f9_hknwrq.jpg"
+        },
+        {
+          "id": 1,
+          "name": "bateria 9v",
+          "description": "bateria cuadrada 9V",
+          "price": 5900,
+          "material": "",
+          "size": null,
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570950/Imagen_de_WhatsApp_2025-05-29_a_las_16.49.24_34a81f32_hnt7wc.jpg"
+        },
+        {
+          "id": 1,
+          "name": "pilas recargables",
+          "description": "Pilas AAA recargables marca Noga",
+          "price": 5000,
+          "material": "",
+          "size": null,
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570922/Imagen_de_WhatsApp_2025-05-29_a_las_16.49.10_61e590d0_twvuiv.jpg"
+        },
+        {
+          "id": 1,
+          "name": "pilas recargables",
+          "description": "Pilas AAA recargables marca Noga",
+          "price": 6000,
+          "material": "",
+          "size": null,
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570908/Imagen_de_WhatsApp_2025-05-29_a_las_16.48.39_dc6f486c_cwddjk.jpg"
+        },
+        {
+          "id": 1,
+          "name": "pilas de boton",
+          "description": "Pilas de boton",
+          "price": 2000,
+          "material": "",
+          "size": null,
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570907/Imagen_de_WhatsApp_2025-05-29_a_las_16.48.22_4077bad0_j2ieno.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Control remoto aire acondicionado",
+          "description": "Control remoto universal para aire acondicionado",
+          "price": 1200,
+          "material": "plastico",
+          "size": null,
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570908/Imagen_de_WhatsApp_2025-05-29_a_las_16.48.31_91ee304a_qevnv1.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Phone bracket",
+          "description": "accesorio que se acopla en el telefono para un mejor agarre, varios diseños disponibles",
+          "price": 4000,
+          "material": "plastico",
+          "size": null,
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570907/Imagen_de_WhatsApp_2025-05-29_a_las_16.47.54_b79e47cb_ermye0.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Phone bracket",
+          "description": "accesorio que se acopla en el telefono para un mejor agarre, varios diseños disponibles",
+          "price": 4000,
+          "material": "plastico",
+          "size": null,
+          "color": "",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570907/Imagen_de_WhatsApp_2025-05-29_a_las_16.47.39_331754b2_ksa8kf.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Controles remotos",
+          "description": "Controles remotos lcd led, pedido a encargo",
+          "price": 10000,
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570906/Imagen_de_WhatsApp_2025-05-29_a_las_16.39.32_7edd408a_ksaevo.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Reloj cubo de colores",
+          "description": "Reloj digital cubo de colores",
+          "price": "",
+          "material": "plastico",
+          "size": null,
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570904/Imagen_de_WhatsApp_2025-05-29_a_las_16.39.19_5224276a_enf0pu.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Balanza de cocina",
+          "description": "Balanza de cocina 10K",
+          "price": "12000",
+          "material": "plastico",
+          "size": null,
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570904/Imagen_de_WhatsApp_2025-05-29_a_las_16.38.39_9fc2e242_ojqzbl.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Reloj despertador",
+          "description": "Reloj despertador analogico",
+          "price": "",
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570904/Imagen_de_WhatsApp_2025-05-29_a_las_16.39.06_f6f19a91_f8uvt9.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Balanza de precision",
+          "description": "Balanza de precision tamaño de bolsillo",
+          "price": 12000,
+          "material": "plastico",
+          "size": null,
+          "color": "gris",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/t_juju/v1748570904/Imagen_de_WhatsApp_2025-05-29_a_las_16.38.47_f08c8333_bppjpo.jpg"
+        },
+        {
+          "id": 1,
+          "name": "auriculares tipo C",
+          "description": "Auriculares con ficha tipo C y microfono",
+          "price": "",
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570904/Imagen_de_WhatsApp_2025-05-29_a_las_16.37.58_6da7dfd3_ha7bsp.jpg"
+        },
+        {
+          "id": 1,
+          "name": "auriculares tipo C",
+          "description": "Auriculares con ficha tipo C y microfono",
+          "price": "",
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570903/Imagen_de_WhatsApp_2025-05-29_a_las_16.36.35_4814b8a6_jzddvv.jpg"
+        },
+        {
+          "id": 1,
+          "name": "auriculares tipo C",
+          "description": "Auriculares con ficha tipo C y microfono",
+          "price": "",
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570904/Imagen_de_WhatsApp_2025-05-29_a_las_16.37.43_43b75c94_hhpfoc.jpg"
+        },
+        {
+          "id": 1,
+          "name": "auriculares con cable",
+          "description": "Auriculares con ficha jack 3.5mm y microfono",
+          "price": "",
+          "material": "plastico",
+          "size": null,
+          "color": "rosa",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570904/Imagen_de_WhatsApp_2025-05-29_a_las_16.38.11_80cf2577_n9lu8x.jpg"
+        },
+        {
+          "id": 1,
+          "name": "auriculares con cable",
+          "description": "Auriculares con ficha jack 3.5mm y microfono",
+          "price": "",
+          "material": "plastico",
+          "size": null,
+          "color": "azul",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570903/Imagen_de_WhatsApp_2025-05-29_a_las_16.37.30_2309f559_y2qz7q.jpg"
+        },
+        {
+          "id": 1,
+          "name": "auriculares con cable",
+          "description": "Auriculares con ficha jack 3.5mm y microfono",
+          "price": "",
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570903/Imagen_de_WhatsApp_2025-05-29_a_las_16.36.15_f6d57ab1_izbr5m.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Manos Libres",
+          "description": "Auriculares manoslibres para llamadas",
+          "price": 2800,
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748570904/Imagen_de_WhatsApp_2025-05-29_a_las_16.36.58_cec08348_svpp2k.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Maquina Cortadora de pelo",
+          "description": "Cortadora de pelo, incluye accesorios",
+          "price": 25000,
+          "material": "plastico",
+          "size": null,
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749080110/Imagen_de_WhatsApp_2025-06-03_a_las_12.26.10_ca228d32_octuoc.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Batidora luma bella",
+          "description": "Batidora  de cocina luma bella, incluye dos tipos de mmezcladores. 5 velocidades",
+          "price": 50000,
+          "material": "plastico",
+          "size": "3.5 litros",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749082718/Imagen_de_WhatsApp_2025-05-30_a_las_15.18.10_c6ed916e_pesbn4.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Batidora Stand mixer",
+          "description": "Batidora  de cocina luma bella, incluye dos tipos de mmezcladores.",
+          "price": 50000,
+          "material": "plastico",
+          "size": "2.5 litros",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749082719/Imagen_de_WhatsApp_2025-05-30_a_las_15.19.35_e169aa96_h2avft.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Balanza digital",
+          "description": "Balanza digital computing scale.",
+          "price": 75000,
+          "material": "",
+          "size": "",
+          "color": "negro",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749082719/Imagen_de_WhatsApp_2025-06-03_a_las_11.38.19_38e0d0ae_jb7qbo.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Secador de zapatillas",
+          "description": "Secador de zapatillas electrico.",
+          "price": 40000,
+          "material": "",
+          "size": "",
+          "color": "turquesa",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749487201/Imagen_de_WhatsApp_2025-06-09_a_las_10.27.52_942e2fbb_cjoebz.jpg"
+        }
+      ]
+    }
+  ]
+}

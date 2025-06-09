@@ -9,32 +9,42 @@ export const Navbar = () => {
         setIsOpen(!isOpen);
     };
 
+    const closeMenu = () => {
+        setIsOpen(false);
+    };
+
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary barra">
+        <nav className="navbar navbar-expand-lg barra">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">Polirubro Grace</a>
-                
-                {/* Botón de hamburguesa */}
-                <button 
-                    className="navbar-toggler" 
-                    onClick={toggleMenu} 
-                    aria-expanded={isOpen ? "true" : "false"} 
+                {/* Marca del sitio como Link (evita recargar) */}
+                <Link className="navbar-brand" to="/" onClick={closeMenu}>
+                    Polirubro Grace
+                </Link>
+
+                {/* Botón hamburguesa */}
+                <button
+                    className="navbar-toggler"
+                    type="button"
+                    onClick={toggleMenu}
+                    aria-controls="navbarNav"
+                    aria-expanded={isOpen}
                     aria-label="Toggle navigation"
                 >
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
                 {/* Menú de navegación */}
-                <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`} id="navbarTogglerDemo02">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarNav">
+                    <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/" onClick={() => setIsOpen(false)}>Inicio</Link>
+                            <Link className="nav-link" to="/" onClick={closeMenu}>
+                                Inicio
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/Explorar" onClick={() => setIsOpen(false)}>Productos</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/Promociones" onClick={() => setIsOpen(false)}>Promociones</Link>
+                            <Link className="nav-link" to="/Explorar" onClick={closeMenu}>
+                                Productos
+                            </Link>
                         </li>
                     </ul>
                 </div>

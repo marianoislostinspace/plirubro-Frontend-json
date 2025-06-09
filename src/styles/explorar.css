@@ -1,7 +1,7 @@
 /* Contenedor general */
 .contenedor {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
     gap: 1.5rem;
     padding: 2rem;
 }
@@ -11,11 +11,13 @@
     background-color: #ffffff;
     border: 1px solid #e5e7eb;
     border-radius: 12px;
-    padding: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
     font-family: sans-serif;
     color: #111827;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
 }
 
 .itemContainer:hover {
@@ -30,7 +32,7 @@
 }
 
 .itemContainer p {
-    font-size: 14px;
+    font-size: 18px;
     margin: 4px 0;
     color: #555;
 }
@@ -45,7 +47,9 @@
     height: 180px;
     object-fit: cover;
     border-radius: 8px;
-    margin: 10px 0;
+    margin: 20px 0;
+    padding: 1px;
+    border: 1px solid black;
 }
 
 /* Botones dentro de la tarjeta */
@@ -134,4 +138,163 @@
 .filtro button:hover {
     background-color: #e5e7eb;
     transform: scale(1.05);
+}
+
+.filtrosContainer {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.filtroh1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+
+
+/* Contenedor de todos los grupos: disposición en fila */
+.filtrosGrupos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* Por si no entra en pantallas pequeñas */
+}
+
+/* Cada grupo de filtros (columnita) */
+.categorias,
+.colores,
+.talle,
+.material {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 120px;
+}
+
+/* Título del grupo opcional */
+.tituloGrupo {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Contenedor de botones en cada grupo */
+.botonesGrupo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+/* Botones */
+.filtros {
+    padding: 10px 16px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+.filtros:hover {
+    background-color: #c5c5c5;
+}
+
+/* Botón limpiar filtros */
+.filtrosContainer>button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #ff7070;
+    color: white;
+}
+
+.filtroButton {
+    position: absolute;
+    top: 70px;
+    /* Distancia desde arriba */
+    left: 20px;
+    /* Distancia desde la izquierda */
+    z-index: 1050;
+    /* Encima del contenido normal */
+}
+
+@media screen and (max-width: 768px) {
+    .filtroButton {
+        position: static;
+        margin: 0 auto 20px auto;
+        display: block;
+    }
+
+    .filtroh1 {
+        margin-top: 10px;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor {
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .itemContainer {
+        padding: 12px;
+    }
+
+    .itemContainer h3,
+    .itemContainer p {
+        font-size: 16px;
+    }
+
+    .itemContainer button {
+        padding: 6px 8px;
+        font-size: 0.85rem;
+    }
+
+    .contenedor {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));
+    }
+
+    .itemContainer img {
+        height: 220px;
+    }
+
+    .opcionesDeFiltrado {
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .filtro {
+        padding: 0.8rem;
+    }
+
+    .filtro h2 {
+        font-size: 1rem;
+    }
+
+    .filtro button {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    .filtrosContainer {
+        padding: 10px;
+    }
+
+    .filtrosGrupos {
+        gap: 10px;
+    }
+
+    .filtros {
+        font-size: 0.8rem;
+        padding: 8px 12px;
+    }
 }
