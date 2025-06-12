@@ -245,6 +245,16 @@
         },
         {
           "id": 1,
+          "name": "Organizador de baño",
+          "description": "Organizador esquinero de baño con 4 estantes",
+          "price": 45000,
+          "material": "metal",
+          "size": null,
+          "color": "blanco",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749690822/Imagen_de_WhatsApp_2025-06-09_a_las_16.35.19_4c03532f_mrafq2.jpg"
+        },
+        {
+          "id": 1,
           "name": "Botellas deportivas",
           "description": "Botellas termicas deportivas con pico extraible, varios colores disponibles",
           "price": 15000,
@@ -1168,9 +1178,9 @@
         },
         {
           "id": 2,
-          "name": "Acolchado para niños de minnie",
-          "description": "Acolchado para cama de una plaza, diseño infantil de minnie mouse",
-          "price": 78000,
+          "name": "cobertor para niños de minnie",
+          "description": "cobertor para cama de una plaza, diseño infantil de minnie mouse",
+          "price": 46000,
           "discountPrice": null,
           "material": "Algodón",
           "color": "",
@@ -1178,9 +1188,9 @@
         },
         {
           "id": 2,
-          "name": "Acolchado para niños de cars",
-          "description": "Acolchado para cama de una plaza, diseño infantil de cars",
-          "price": 78000,
+          "name": "cobertor para niños de cars",
+          "description": "cobertor para cama de una plaza, diseño infantil de cars",
+          "price": 46000,
           "discountPrice": null,
           "material": "Algodón",
           "color": "",
@@ -1188,9 +1198,9 @@
         },
         {
           "id": 2,
-          "name": "Acolchado para niños de los vengadores",
-          "description": "Acolchado para cama de una plaza, diseño infantil de los vengadores",
-          "price": 78000,
+          "name": "cobertor para niños de los vengadores",
+          "description": "cobertor para cama de una plaza, diseño infantil de los vengadores",
+          "price": 46000,
           "discountPrice": null,
           "material": "Algodón",
           "color": "",
@@ -1198,9 +1208,9 @@
         },
         {
           "id": 2,
-          "name": "Acolchado para niños de spiderman",
-          "description": "Acolchado para cama de una plaza, diseño infantil de spiderman",
-          "price": 78000,
+          "name": "cobertor para niños de spiderman",
+          "description": "cobertor para cama de una plaza, diseño infantil de spiderman",
+          "price": 46000,
           "discountPrice": null,
           "material": "Algodón",
           "color": "",
@@ -1210,8 +1220,8 @@
           "id": 1,
           "name": "Cortinas casatex",
           "description": "Cortinas blackout marca casatex, varios colores disponibles",
-          "price": 70000,
-          "material": "poliester",
+          "price": 56000,
+          "material": "tropical mecanico",
           "size": null,
           "color": "a eleccion",
           "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748296679/cortinaBlackTurquesa_q67bju.webp"
@@ -1289,8 +1299,8 @@
         {
           "id": 1,
           "name": "sabanas ajustables casatex",
-          "description": "set sabanas ajustables x4 marca casatex",
-          "price": 40000,
+          "description": "set sabanas ajustables x4 marca casatex tamaños full, king y queen",
+          "price": 45000,
           "material": "poliester",
           "size": null,
           "color": "a eleccion",
@@ -1298,9 +1308,19 @@
         },
         {
           "id": 1,
-          "name": "sabanas ajustables ",
-          "description": "set sabanas ajustables, diferentes colores disponibles",
-          "price": 32000,
+          "name": "Cortinas blackout",
+          "description": "Cortinas blackout con brillo",
+          "price": 43000,
+          "material": "100% algodon",
+          "size": null,
+          "color": "a eleccion",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1748314494/Imagen_de_WhatsApp_2025-05-26_a_las_21.01.51_49fe99b7_f1947d.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Cortinas blackout",
+          "description": "Cortinas blackout color mate",
+          "price": 56000,
           "material": "100% algodon",
           "size": null,
           "color": "a eleccion",
@@ -2048,6 +2068,16 @@
           "size": "",
           "color": "turquesa",
           "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749487201/Imagen_de_WhatsApp_2025-06-09_a_las_10.27.52_942e2fbb_cjoebz.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Batidora de pie",
+          "description": "Batidora de pie marca ackillis, incluye 2 tipos de mezcladores",
+          "price": 38000,
+          "material": "",
+          "size": "2L",
+          "color": "rojo",
+          "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1749690822/Imagen_de_WhatsApp_2025-06-09_a_las_16.28.22_c6f221cc_ylaqod.jpg"
         }
       ]
     }
