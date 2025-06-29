@@ -32,6 +32,9 @@ export const Explorar = () => {
   const [dataApi, setDataApi] = useState<Product[]>([]);
   const [Items, setItems] = useState<Product[]>([]);
 
+  const [oferta, setoferta] = useState<Product[]>([])
+
+
   const [cart, setcart] = useState<Product[]>(() => {
     const carritoGuardado = localStorage.getItem("carrito");
     return carritoGuardado ? JSON.parse(carritoGuardado) : [];
@@ -59,7 +62,17 @@ export const Explorar = () => {
     fetchJson()
   }, [])
 
+  // FETCH DE OFERTAS
+  useEffect(() => {
+    const ofertJson = async () => {
+      const response = await fetch('./data/oferta.json')
+      const data = await response.json()
 
+      setoferta(data.ofertas)
+    }
+
+    ofertJson()
+  }, [])
 
 
   // FILTRAR POR CATEGORIA
@@ -198,121 +211,130 @@ CBU: 0000003100064769126418 :\n\n Por favor, enviame el comprobante de pago por 
   };
 
   return (
-    <>
-      <div className="carritoLateral">
-        {/* Botón que abre el Sidebar, solo visible si el menú está cerrado */}
-        {!isMenuOpen && (
-          <button
-            className="btn btn-primary m-3 filtroButton"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#sidebarMenu"
-            aria-controls="sidebarMenu"
-            onClick={handleCartToggle} // Cambia el estado del menú
-          >
-            Mi Carrito 🛒
-          </button>
-        )}
+  <>
+    {/* 🛒 Carrito Lateral */}
+    <div className="carritoLateral">
+      {!isMenuOpen && (
+        <button
+          className="btn btn-primary m-3 filtroButton"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#sidebarMenu"
+          aria-controls="sidebarMenu"
+          onClick={handleCartToggle}
+        >
+          Mi Carrito 🛒
+        </button>
+      )}
 
-        {/* Menú Lateral Offcanvas */}
-        <div className={`offcanvas offcanvas-start ${isMenuOpen ? 'show' : ''}`} id="sidebarMenu" tabIndex={-1}>
-          <div className="offcanvas-header carritoHeader">
-            <h5 className="offcanvas-title">Carrito de Compras🛒</h5>
-            <button className="btn-close" data-bs-dismiss="offcanvas" onClick={handleCartToggle}></button>
+      <div className={`offcanvas offcanvas-start ${isMenuOpen ? 'show' : ''}`} id="sidebarMenu" tabIndex={-1}>
+        <div className="offcanvas-header carritoHeader">
+          <h5 className="offcanvas-title">Carrito de Compras 🛒</h5>
+          <button className="btn-close" data-bs-dismiss="offcanvas" onClick={handleCartToggle}></button>
+        </div>
+        <div className="offcanvas-body">
+          <div className='contenidoCarrito'>
+            <h2 className='H1cart'>Carrito</h2>
+            {cart.length === 0 ? (
+              <p>Tu carrito está vacío</p>
+            ) : (
+              cart.map((item, index) => (
+                <div className='itemContainer' key={item._id}>
+                  <p className='itemsCarrito'>{item.name} - ${item.price}</p>
+                  <button className='eliminar' onClick={() => removeFromCart(index)}>Eliminar</button>
+                </div>
+              ))
+            )}
+            <p><strong className='Total'>Total:</strong> <strong className='TotalPrice'>${getTotal().toFixed(2)}</strong></p>
+
+            <div className="pedidoContainer">
+              <form onSubmit={(e) => e.preventDefault()}>
+                <input type="text" placeholder='Nombre' required onChange={(e) => setname(e.target.value)} />
+                <input type="tel" placeholder='Teléfono' required onChange={(e) => settelefono(e.target.value)} />
+                <button className='pedidoButton' type='submit' onClick={realizarPedido}>Realizar Pedido</button>
+              </form>
+            </div>
           </div>
-          <div className="offcanvas-body">
-            <div className='contenidoCarrito'>
-              <h2 className='H1cart'>Carrito</h2>
-              {cart.length === 0 ? (
-                <p>Tu carrito está vacío</p>
-              ) : (
-                cart.map((item, index) => (
-                  <div className='itemContainer' key={item._id}>
-                    <p className='itemsCarrito'>{item.name} - ${item.price}</p>
-                    <button className='eliminar' onClick={() => removeFromCart(index)}>Eliminar</button>
-                  </div>
-                ))
-              )}
-              <p><strong className='Total'>Total:</strong> <strong className='TotalPrice'>${getTotal().toFixed(2)}</strong></p>
+        </div>
+      </div>
+    </div>
 
-
-              <div className="pedidoContainer">
-                <form onSubmit={(e) => e.preventDefault()}>
-                  <input type="text" id='nombre' placeholder='Nombre' required onChange={(e) => setname(e.target.value)} />
-                  <input type="tel" id='telefono' placeholder='Telefono' required onChange={(e) => settelefono(e.target.value)} />
-                  <button className='pedidoButton' type='submit' onClick={realizarPedido}>Realizar Pedido</button>
-                </form>
+    {/* 👉 Render condicional limpio */}
+    {detailScreen ? (
+      /* Vista de detalle */
+      itemDetail && (
+        <div className="detalleProducto">
+          <button onClick={backToProducts} className='volver'>Volver a los productos</button>
+          <h1>{itemDetail.name}</h1>
+          <p><strong>Descripción:</strong> {itemDetail.description}</p>
+          <p><strong>Precio:</strong> ${itemDetail.discountPrice ?? itemDetail.price}</p>
+          <p><strong>Tamaño:</strong> {itemDetail.size}</p>
+          <p><strong>Color:</strong> {itemDetail.color}</p>
+          <p><strong>Material:</strong> {itemDetail.material}</p>
+          <img src={itemDetail.img} alt={itemDetail.name} width="300" />
+          <button className='casho' onClick={() => consultaMessage(itemDetail)}>Consultar más detalles</button>
+          <button className='casho' onClick={() => handleAddCart(itemDetail)}>Agregar al Carrito</button>
+        </div>
+      )
+    ) : (
+      /* Vista normal */
+      <>
+        {/* 🎚️ Filtros */}
+        <div className="filtrosContainer">
+          <h1 className='filtroh1'>Filtros de Búsqueda</h1>
+          <div className="filtrosGrupos">
+            <div className="categorias">
+              <div className="tituloGrupo">Categorías</div>
+              <div className="botonesGrupo">
+                <button className='filtros' onClick={() => categoryFilter('bazar')}>Bazar</button>
+                <button className='filtros' onClick={() => categoryFilter('electrónica')}>Electrónica</button>
+                <button className='filtros' onClick={() => categoryFilter('blanqueria')}>Blanquería</button>
+              </div>
+            </div>
+            <div className="colores">
+              <div className="tituloGrupo">Colores</div>
+              <div className="botonesGrupo">
+                {["Negro", "Blanco", "Rojo", "Azul", "Verde", "Gris", "Marrón", "Amarillo", "Rosa"].map(color => (
+                  <button key={color} className='filtros' onClick={() => filtrarColor(color)}>{color}</button>
+                ))}
+              </div>
+            </div>
+            <div className="material">
+              <div className="tituloGrupo">Material</div>
+              <div className="botonesGrupo">
+                {["Vidrio", "Cerámica", "Plástico", "Metal"].map(material => (
+                  <button key={material} className='filtros' onClick={() => filterbyMaterial(material)}>{material}</button>
+                ))}
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div className="filtrosContainer">
-        <h1 className='filtroh1'>Filtros de Búsqueda</h1>
-
-        <div className="filtrosGrupos">
-
-          <div className="categorias">
-            <div className="tituloGrupo">Categorías</div>
-            <div className="botonesGrupo">
-              <button className='filtros' onClick={() => categoryFilter('bazar')}>bazar</button>
-              <button className='filtros' onClick={() => categoryFilter('electrónica')}>electrónica</button>
-              <button className='filtros' onClick={() => categoryFilter('blanqueria')}>Blanqueria</button>
-            </div>
-          </div>
-
-          <div className="colores">
-            <div className="tituloGrupo">Colores</div>
-            <div className="botonesGrupo">
-              <button className='filtros' onClick={() => filtrarColor('Negro')}>Negro</button>
-              <button className='filtros' onClick={() => filtrarColor('Blanco')}>Blanco</button>
-              <button className='filtros' onClick={() => filtrarColor('Rojo')}>Rojo</button>
-              <button className='filtros' onClick={() => filtrarColor('Azul')}>Azul</button>
-              <button className='filtros' onClick={() => filtrarColor('Verde')}>Verde</button>
-              <button className='filtros' onClick={() => filtrarColor('Gris')}>Gris</button>
-              <button className='filtros' onClick={() => filtrarColor('Marrón')}>Marrón</button>
-              <button className='filtros' onClick={() => filtrarColor('Amarillo')}>Amarillo</button>
-              <button className='filtros' onClick={() => filtrarColor('rosa')}>rosa</button>
-            </div>
-          </div>
-
-          <div className="material">
-            <div className="tituloGrupo">Material</div>
-            <div className="botonesGrupo">
-              <button className='filtros' onClick={() => filterbyMaterial('vidrio')}>vidrio</button>
-              <button className='filtros' onClick={() => filterbyMaterial('ceramica')}>ceramica</button>
-              <button className='filtros' onClick={() => filterbyMaterial('Plastico')}>Plastico</button>
-              <button className='filtros' onClick={() => filterbyMaterial('metal')}>metal</button>
-              <button className='filtros' onClick={() => filterbyMaterial('vidrio')}>vidrio</button>
-            </div>
-          </div>
-
+          <button className='filtros' onClick={cleanFilters}>Limpiar filtros</button>
         </div>
 
-        <button className='filtros' onClick={cleanFilters}>Limpiar filtros</button>
-      </div>
-
-
-      {detailScreen ? (
-        // Vista de detalles del producto
-        <div>
-          {itemDetail && (
-            <div className="detalleProducto">
-              <button onClick={backToProducts} className='volver'>Volver a los productos</button>
-              <h1>{itemDetail.name}</h1>
-              <p><strong>Descripción:</strong> {itemDetail.description}</p>
-              <p><strong>Precio:</strong> ${itemDetail.discountPrice ?? itemDetail.price}</p>
-              <p><strong>Tamaño:</strong> {itemDetail.size}</p>
-              <p><strong>Color:</strong> {itemDetail.color}</p>
-              <p><strong>Material:</strong> {itemDetail.material}</p>
-              <img src={itemDetail.img} alt={itemDetail.name} width="300" />
-              <button className='casho' onClick={() => consultaMessage(itemDetail)}>consultar mas detalles sobre este producto</button>
-              <button onClick={() => handleAddCart(itemDetail)} className='casho'>Agregar al Carrito</button>
-            </div>
+        {/* 🛍️ Ofertas */}
+        <div className="ofertasTitle">
+          <h1>OFERTAS POR TIEMPO LIMITADO</h1>
+          <h2>Ofertas disponibles desde el 30/6 al 5/7</h2>
+        </div>
+        <div className="contenedor">
+          {oferta.length > 0 ? (
+            oferta.map((itemOferta, index) => (
+              <div key={index} className="itemContainer" onClick={() => getDetails(itemOferta)}>
+                <p><strong>Nombre:</strong> {itemOferta.name}</p>
+                <p><strong>Precio:</strong> ${itemOferta.price}</p>
+                <p><strong>Material:</strong> {itemOferta.material}</p>
+                <p><strong>Color:</strong> {itemOferta.color}</p>
+                <img src={itemOferta.img} alt={itemOferta.name} width="200" />
+              </div>
+            ))
+          ) : (
+            <p>No hay productos disponibles.</p>
           )}
         </div>
-      ) : (
-        // Vista de lista de productos
+
+        {/* 🛒 Artículos en Venta */}
+        <div className="itemsTitle">
+          <h1>ARTÍCULOS EN VENTA</h1>
+        </div>
         <div className="contenedor">
           {dataApi.length > 0 ? (
             dataApi.map((apiData, index) => (
@@ -322,16 +344,15 @@ CBU: 0000003100064769126418 :\n\n Por favor, enviame el comprobante de pago por 
                 <p><strong>Material:</strong> {apiData.material}</p>
                 <p><strong>Color:</strong> {apiData.color}</p>
                 <img src={apiData.img} alt={apiData.name} width="200" />
-                {/* <button onClick={() => handleAddCart(apiData)}>Agregar al Carrito✅</button> */}
               </div>
             ))
           ) : (
             <p>No hay productos disponibles.</p>
           )}
         </div>
-      )}
+      </>
+    )}
+  </>
+);
 
-
-    </>
-  );
 };

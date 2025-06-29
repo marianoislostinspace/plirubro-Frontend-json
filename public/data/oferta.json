@@ -1,0 +1,127 @@
+{
+  "ofertas": [
+    {
+      "id": 1,
+      "name": "Set Matero",
+      "description": "Set de mate, incluye Termo, Mate y Bombilla",
+      "price": 40000, 
+      "material": "metal",
+      "size": null,
+      "color": "a eleccion",
+      "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1751227568/Imagen_de_WhatsApp_2025-06-29_a_las_13.47.21_67c1c7c5_lvi54z.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mantas Queen",
+      "description": "Mantas tamaño queen, calidad premium",
+      "price": 32000,
+      "size": "queen",
+      "color": "a eleccion",
+      "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1751227568/Imagen_de_WhatsApp_2025-06-29_a_las_13.58.33_70b598f6_wo9aoc.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Removedor de pelusas",
+      "description": "Removedor de pelusas portatil Sokany",
+      "price": 15000,
+      "color": "blanco",
+      "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1751227568/Imagen_de_WhatsApp_2025-06-29_a_las_14.00.09_8ceda41a_dhqre4.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Termo matero",
+      "description": "Termo con tapa de mate",
+      "price": 27000,
+      "color": "a eleccion",
+      "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1751227568/Imagen_de_WhatsApp_2025-06-29_a_las_13.57.36_79ff448b_uc8qci.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Juego de cubiertos",
+      "description": "Juego de cubiertos de 27 piezas",
+      "price": 15000,
+      "color": "a eleccion",
+      "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1751227567/Imagen_de_WhatsApp_2025-06-29_a_las_13.47.28_2eb45031_yby5ic.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Stirring mug",
+      "description": "Taza Mezcladora alimentada con baterias",
+      "price": 12000,
+      "color": "negro",
+      "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1751227568/Imagen_de_WhatsApp_2025-06-29_a_las_13.57.02_eb95a9c8_zrxhy7.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Set de yerbera y azucarera",
+      "description": "Set de contendedores para yerba y azucar",
+      "price": 5000,
+      "color": "a eleccion",
+      "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1751227567/Imagen_de_WhatsApp_2025-06-29_a_las_13.48.03_205c1add_zenrjz.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Toallones econcomicos",
+      "description": "Toallones economicos por unidad",
+      "price": 5000,
+      "color": "a eleccion",
+      "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1751227567/Imagen_de_WhatsApp_2025-06-29_a_las_13.51.11_636c75fb_twpwle.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mates stanley",
+      "description": "Mates metalicos Stanley",
+      "price": 10000,
+      "color": "a eleccion",
+      "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1751227567/Imagen_de_WhatsApp_2025-06-29_a_las_13.55.07_0bf2f7ab_i5svua.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mate con bombilla",
+      "description": "Mates plstico mas bombilla",
+      "price": 2500,
+      "color": "a eleccion",
+      "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1751227567/Imagen_de_WhatsApp_2025-06-29_a_las_13.54.18_0dcc79a4_vn3fr3.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Frazada de dos plazas",
+      "description": "Frazadas de dos plazas a cuadros",
+      "price": 22000,
+      "color": "a eleccion",
+      "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1751227566/Imagen_de_WhatsApp_2025-06-29_a_las_13.47.27_b9539883_l2wfkb.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Individuales",
+      "description": "Individuales de mesa X4",
+      "price": 15000,
+      "color": "a eleccion",
+      "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1751227566/Imagen_de_WhatsApp_2025-06-29_a_las_13.52.44_33de8f59_lmryw7.jpg"
+    },
+    {
+      "id": 2,
+      "name": "set de utensillos",
+      "description": "Set de utensillos X12 de silicona",
+      "price": 17000,
+      "color": "a eleccion",
+      "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1751227566/Imagen_de_WhatsApp_2025-06-29_a_las_13.47.28_2e828525_vfdjto.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mantas de corderito",
+      "description": "Mantas de corderito de 2 plazas",
+      "price": 25000,
+      "color": "a eleccion",
+      "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1751227566/Imagen_de_WhatsApp_2025-06-29_a_las_13.47.27_5c31e358_vz7sdt.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Pava electrica",
+      "description": "Pava electrica cordless, capacidad 2 Litros",
+      "price": 15000,
+      "color": "gris",
+      "img": "https://res.cloudinary.com/dd2mtmyve/image/upload/v1751227565/Imagen_de_WhatsApp_2025-06-29_a_las_13.47.21_559be2db_mrsftw.jpg"
+    }
+  ]
+}
